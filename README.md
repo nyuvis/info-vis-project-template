@@ -6,7 +6,17 @@ This is a simple template to use for class projects. You can change this templat
 
 ## Running the code
 
-To run the website, execute the command `python3 -m http.server` in this directory and then go to http://0.0.0.0:8000/ in your browser.
+Run one of the following commands in this directory:
+
+```bash
+# For Python 3:
+python -m http.server
+
+# For Python 2:
+python -m SimpleHTTPServer
+```
+
+You can then go to http://localhost:8000 in your browser. See [How do you set up a local testing server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) for more.
 
 ## Contents
 
