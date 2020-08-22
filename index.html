@@ -2,8 +2,8 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Project #</title>
-        
+        <title>Mini-Project</title>
+
         <!-- link our CSS file -->
         <link rel="stylesheet" href="style.css">
 
@@ -11,27 +11,25 @@
             in the background and then execute in order
             after the DOM is ready -->
 
-        <!-- D3 library goes first --> 
+        <!-- D3 library goes first -->
         <script src="d3/d3.js" defer></script>
         <script src="d3/d3-array.js" defer></script>
-        
-        <!-- Then our visualization code --> 
+        <script src="d3/color-legend.js" defer></script>
+
+        <!-- Then our visualization code -->
         <script src="visualizations/vis1.js" defer></script>
         <script src="visualizations/vis2.js" defer></script>
-        
-        <!-- Then our code that calls the visualizations --> 
+
+        <!-- Then our code that calls the visualizations -->
         <script src="main.js" defer></script>
 
     </head>
 
     <body>
         <div id="container">
-            <p>Name, netid</p>
-            <p>Mini-project #</p>
-
             <h1>Visualization 1</h1>
             <div id="vis1"></div>
-            
+
             <h1>Visualization 2</h1>
             <div id="vis2"></div>
         </div>

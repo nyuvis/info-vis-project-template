@@ -24,7 +24,7 @@ You can then go to http://localhost:8000 in your browser. See [How do you set up
 
 * `style.css` contains CSS rules.
 
-* `d3` contains the D3 library.
+* `d3` contains the D3 library and the `legend` function from the [Color Legend Observable notebook](https://observablehq.com/@d3/color-legend).
 
 * `data` contains datasets used by the visualizations. For now there is a toy dataset that contains the scores for a game and `countries.json`, which is a GeoJSON file for world countries. This file is derived from data from [Natural Earth](https://www.naturalearthdata.com).
 
@@ -40,4 +40,4 @@ For example, the bar chart in `vis1.js` is mostly the same as the one in the [Fu
 
 ## Caches
 
-You may experience a problem where you make changes to your code, but they are not reflected in the browser. This is likely due to your broswer using a cached version of the file instead of the most recent version. To fix this, you can do a hard reload or adjust your browser settings to disable caches when your developer tools are open. The Wikipedia article [Bypass your cache](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache) explains how this can be done for different browsers.
+You may experience a problem where you make changes to your code, but they are not reflected in the browser. This is likely due to your browser using a cached version of the file instead of the most recent version. To fix this, you can do a hard reload or adjust your browser settings to disable caches when your developer tools are open. The Wikipedia article [Bypass your cache](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache) explains how this can be done for different browsers.
